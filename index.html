@@ -14,6 +14,23 @@
       rel="stylesheet"
       type="text/css"
     />
+    <style>
+      .img {
+        max-width: 500px;
+        height: 450px;
+        width: 90%;
+      }
+
+      @media screen and (max-width: 768px) {
+        .img {
+          height: 350px;
+          width: 90%;
+        }
+        .ca_txt {
+          font-size: 15px;
+        }
+      }
+    </style>
     <script type="text/javascript">
       !(function (o, c) {
         var n = c.documentElement,
@@ -38,12 +55,12 @@
     >
       <div class="w-layout-blockcontainer container w-container">
         <!-- <h1 class="heading-2">Just a dancing Hot Dog $<br />GLIZZY</h1> -->
-        <h1 class="heading-2">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h1>
+        <h1 class="heading-2 ca_txt">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</h1>
         <img
           src="/images/logo.jpg"
           loading="lazy"
           width="518"
-          style="max-width: 500px; height: 450px; width: 90%"
+          class="img"
           alt=""
         />
         <div>
